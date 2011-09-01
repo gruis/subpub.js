@@ -8,7 +8,7 @@
     "type": "git",
     "url": "git://github.com/simulacre/subpub.js.git"
   },
-  "main": "subpub",
+  "main": "./lib/subpub",
   "engines": {
     "node": "~v0.4.11"
   },

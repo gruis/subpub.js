@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+/**
+ * @see http://cjohansen.no/en/node_js/unit_testing_node_js_apps
+ */
+require.paths.push(__dirname);
+require.paths.push(__dirname + '/deps');
+require.paths.push(__dirname + '/lib');
+var testrunner = require('nodeunit').testrunner;
+
+process.chdir(__dirname);
+testrunner.run(['test']);
