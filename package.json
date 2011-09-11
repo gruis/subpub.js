@@ -2,7 +2,7 @@
   "author": "Caleb Crane <subpub.js@simulacre.org> (http://www.simulacre.org)",
   "name": "subpub",
   "description": "A simple pub/sub server - not meant for external consumption",
-  "version": require('subpub/version').version // will this work? "0.0.0",
+  "version": require('subpub/version').version, // will this work? "0.0.0",
   "homepage": "http://www.simulacre.org/subpub.js",
   "repository": {
     "type": "git",
