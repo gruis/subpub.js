@@ -8,6 +8,7 @@ var config = {
   'port': 6379,
   'host':"0.0.0.0"
 };
+
 var Path   = require("path");
 var path   = Path.resolve(process.env.HOME + "/.subpub/config.json");
 
