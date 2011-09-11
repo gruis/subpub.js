@@ -13,5 +13,6 @@
     "node": "~v0.4.11"
   },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "scripts": { "start": "./bin/subpub.js" }
 }
