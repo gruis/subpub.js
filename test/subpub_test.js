@@ -1,6 +1,10 @@
 var assert = require("node-assert-extras");
 
 exports.group = {
+  version: function(test){
+    test.equal(typeof(require('subpub').version), 'string')
+    test.done();
+  },
   SubPub: function(test) {
     var subpub = require('subpub')
     test.equal(typeof(subpub["parse"]), 'function')
